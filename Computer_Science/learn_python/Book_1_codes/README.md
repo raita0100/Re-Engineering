@@ -97,12 +97,15 @@
       ```
       Choose any one to fire with editor in terminal
 
-    - cp Copying the files
-    ```sh
-    $ cp [-opt] <source path> <destination path>
-    ```
-    copy from source to destination</br></br>
-    optional arguements:
+      - cp Copying the files
+    
+      ```sh
+      $ cp [-opt] <source path> <destination path>
+      ```
+    
+    
+      copy from source to destination</br></br>
+      optional arguements:
       | options | function|
       |---------|---------|
       | -v | print verbose |
@@ -113,24 +116,24 @@
       | -rt | To copy only the files and subdirectories but not the source directory, use the -T option: |
       | man cp | For more options|
 
-    - mv Moving the files
+     - mv Moving the files
      ```sh
      $ mv <source/path> <destination/path>
      ```
      move files from source to destination
 
-    - mkdir (Make directory)
-    ```sh
-    $ mkdir <file/path/for/creation>
-    ```
-    create a file in specified location</br>
+     - mkdir (Make directory)
+      ```sh
+      $ mkdir <file/path/for/creation>
+      ```
+     create a file in specified location</br>
 
-    - rm Remove files or delete files
-    ```sh
-    $ rm [-opt] <file/to/remove>
-    ```
-    | option | explaination |
-    |--------|--------------|
-    | -r | all subdirectories</br> with asking permission for each|
-    | -rf | force delete</br>No permission asked |
+     - rm Remove files or delete files
+      ```sh
+      $ rm [-opt] <file/to/remove>
+      ```
+      | option | explaination |
+      |--------|--------------|
+      | -r | all subdirectories</br> with asking permission for each|
+      | -rf | force delete</br>No permission asked |
   
