@@ -136,12 +136,12 @@
       | -r | all subdirectories</br> with asking permission for each|
       | -rf | force delete</br>No permission asked |
 
-    * Flags and wildcards
+   * Flags and wildcards
       ---
-    > -r is a flag or switch</br>
-    > "*" is a wildcard for 0 or more.</br>
+      > -r is a flag or switch</br>
+      > "*" is a wildcard for 0 or more.</br>
 
-    * Getting help
+   * Getting help
       ---
       ```sh
       $ man ls
@@ -151,7 +151,7 @@
 
       > ### *less is modeled over more.*
 
-    - Search for a command and feature
+   - Search for a command and feature
       ```sh
       $ apropos "text editor"
       ```
@@ -164,7 +164,7 @@
       ```
       </br>
 
-    * Combining Utilities with redirection and pipes (>, >> , |)
+   * Combining Utilities with redirection and pipes (>, >> , |)
       ---
 
       | option | description |
@@ -173,22 +173,24 @@
       | >> | append to right |
       | \| | pipe or chain (cobine commands)|
 
-    * Permission and Shearing
+   * Permission and Shearing
       ---
       To see permissions:
       ```sh
       $ ls -l
       -rw-r--r-- type ownername groupownerbelong size mont day hour:minute Name-of-file
       ```
-    first bit in 10 bits: -rw-r--r--
-      type-of-file:
-      - **d** => for directory
-      - **f** => for link files
+   first bit in 10 bits: -rw-r--r--
+      type-of-file:</br>
+      - **d** => for directory</br>
+      - **f** => for link files</br>
       - **\-** => for others</br>
-    next 9 bits are divided into 3-groups of 3-each
-       1. Owner
-       2. Group
-       3. Others
+    next 9 bits are divided into 3-groups of 3-each</br>
+       <ol>
+        <li>Owner</li>
+       <li>Group</li>
+       <li>Others</li>
+       </ol>
        </br>
     permissions are:
        - read (r) (1)
