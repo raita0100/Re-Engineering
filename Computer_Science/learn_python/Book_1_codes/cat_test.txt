@@ -1,0 +1,6 @@
+hi this is test
+here cat is immitating the typing
+and sending it to the cat_test.txt file
+=> to terminate this type of intaracting program you need to hit ^d
+i.e: ctrl+d
+=> ^c i.e ctrl+c will not work
