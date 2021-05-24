@@ -191,6 +191,33 @@
        3. Others
        </br>
     permissions are:
-       - read (r) (1)
+       - read (r) (4)
        - write (w) (2)
-       - execute (x) (4)
+       - execute (x) (1)
+
+    - Setting owner
+    ```sh
+    $ chown [option] <selecting user/group> <path/to/file>
+    ```
+    options may be -> -R</br>
+    setting group or user as -> :group
+
+    - giving permissions to Others
+    ```sh
+    $ chmod [option] <users><add/remove>
+    $ chmod -R 777 <path/to/file> -> set rwx to ugo
+    $ chmod 744 <path/to/file> -> set rwxrr to ugo
+    $ chmod g+rw <path/to/file>
+    ```
+    | Users | explainations |
+    |-------|---------------|
+    | a | all |
+    | g | group |
+    | o | other |
+    | u | user |
+
+    - linking the file (inode number)
+    ```sh
+    $ ln -l <source_path> <link_path>
+    ```
+    to avoid duplication one file can named with symbolic links to access at different positions.
