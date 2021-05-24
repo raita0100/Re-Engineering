@@ -197,14 +197,14 @@
        - write (w) (2)
        - execute (x) (1)
 
-    - Setting owner
+   - Setting owner
     ```sh
     $ chown [option] <selecting user/group> <path/to/file>
     ```
     options may be -> -R</br>
     setting group or user as -> :group
 
-    - giving permissions to Others
+   - giving permissions to Others
     ```sh
     $ chmod [option] <users><add/remove>
     $ chmod -R 777 <path/to/file> -> set rwx to ugo
@@ -218,7 +218,7 @@
     | o | other |
     | u | user |
 
-    - linking the file (inode number)
+   - linking the file (inode number)
     ```sh
     $ ln -l <source_path> <link_path>
     ```
