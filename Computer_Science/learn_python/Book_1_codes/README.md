@@ -223,3 +223,77 @@
     $ ln -l <source_path> <link_path>
     ```
     to avoid duplication one file can named with symbolic links to access at different positions.
+
+  * Connecting to Other computers
+    ---
+    > (Secure SHell) (SSH) -> To connect to remote computer</br> (Secure CoPy) (SCP) -> to copy files from or to remote computer.
+
+    ```sh
+    $ ssh user@remote_computer_address
+    ```
+    then it will ask for a password.</br>
+
+    To copy files:
+    ```sh
+    $ scp <source_path> user@host:<destination_path>
+    ```
+    - environment
+      ---
+      --> bash is a program here we can write sub program to run.</br>
+      --> Also we can define variables to.</br>
+      To Define a variables
+      ```sh
+      $ export variable=value
+      ```
+      this is now a environent variable.</br>
+      To view the variables vale use ***echo***.
+      ```sh
+      $ echo $variable
+      ```
+      To view all the Environment variables:
+      ```sh
+      $ env
+      ```
+      **Saving Environment variable (.bashrc)**
+      > Environment variables are stored in ~/.bash_profile or ~/.bashrc file
+
+      To make your own environment variables</br>
+      <ul>
+        <li>open ~/.bashrc file</li>
+        <li>write your variable as export variable=value</li>
+        <li>close file</li>
+        <li>source ~/.bashrc</li>
+        <li>now we can use variable as $variable</li>
+      </ul>
+
+      * Adding the data to path
+        ---
+        ```sh
+        $ export PATH=$PATH:<path/to/file/to/add/to/path>
+        ```
+        this will add new_apth to path list.</br>
+        $PATH -> previous path value</br>
+        : separation to new path.
+
+    * Nick naming command (alias)
+      ---
+      To make large commands small we can alias them.</br>
+      ex: if i need to list content of folder with different colores for directories and files.</br>
+      in mac-t command is : ls -G </br>
+      in linux command is : ls --color </br>
+      we cann alias them using ***alias***
+      ```sh
+      $ alias ls 'ls -G'
+      ```
+      > if commands are more we can store them in a separate file like ~/.bash_aliases</br>
+      and add to ~/.bashrc to compile  source ~/.bash_aliases
+
+    * Scripting with bash
+      ---
+      bash scripts ends with .sh and all commands valid in terminal are valid in bash script. </br>
+      simple progtram to explore directories
+      ```sh
+      $ vi explore.sh
+      ```
+      use # for comments write script</br>
+      to run ***./explore.sh***
