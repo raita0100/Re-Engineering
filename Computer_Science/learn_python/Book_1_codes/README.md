@@ -198,7 +198,7 @@
        - execute (x) (1)
 
    - Setting owner
-   
+
      ```sh
       $ chown [option] <selecting user/group> <path/to/file>
      ```
@@ -206,14 +206,14 @@
     setting group or user as -> :group
 
    - giving permissions to Others
-   
+
       ```sh
       $ chmod [option] <users><add/remove>
       $ chmod -R 777 <path/to/file> -> set rwx to ugo
       $ chmod 744 <path/to/file> -> set rwxrr to ugo
       $ chmod g+rw <path/to/file>
       ```
-    
+
    | Users | explainations |
    |-------|---------------|
    | a | all |
@@ -300,3 +300,30 @@
       ```
       use # for comments write script</br>
       to run ***./explore.sh***
+
+  # Istalling requirements
+
+  `On Linux, use the following to install Miniconda:
+   ```sh
+   $ bash Miniconda3-latest-Linux-x86_64.sh
+   ```
+   On Mac OS X, use the following to install Miniconda:
+   ```sh
+   $ bash Miniconda3-latest-MacOSX-x86_64.sh
+   ```
+   __(or)__</br>
+
+   Go to website and download according to your os.</br>
+   [link to conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
+
+   install packages :
+   ```sh
+   $ conda install --yes numpy scipy ipython ipython-notebook matplotlib pandas pytables nose setuptools sphinx mpi4py
+   ```
+
+   run jupyter notebook as:
+   ```sh
+   $ cd Book_1_codes
+   $ jupyter notebook
+   ```
+   [all codes](https://github.com/raita0100/Re-Engineering/tree/main/Computer_Science/learn_python/Book_1_codes/chapter-2.ipynb)
