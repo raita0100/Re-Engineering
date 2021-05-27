@@ -227,6 +227,32 @@
      ```
     to avoid duplication one file can named with symbolic links to access at different positions.
 
+  - searching (find, grep)
+    ---
+    #### find
+    > find used to search the files or directories and perform actions
+
+    ```sh
+    $ find [where to start searching from] [expression determines what to find] [-options] [what to find]
+
+    $ find . -type d -name "OS"
+    ```
+    Search in (.) current directory, type directory and directory name "OS"<br>
+    <br>
+    You can search with anything
+    <img src="Images/opt_for_find.png" alt="options">
+
+    #### grep
+    > grep is a fileter search for a particular text in file, and displays all the lines matching
+
+    ```sh
+    $ grep [option] pattern file
+    $ grep -i "man" README.md
+    ```
+    Options available with grep
+    <br>
+    <img src="Images/option_for_grep.png", alt="options">
+
   * Connecting to Other computers
     ---
     > (Secure SHell) (SSH) -> To connect to remote computer</br> (Secure CoPy) (SCP) -> to copy files from or to remote computer.
