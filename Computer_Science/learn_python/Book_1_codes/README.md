@@ -250,8 +250,8 @@
     $ grep -i "man" README.md
     ```
     Options available with grep
-    <br>
-    <img src="Images/option_for_grep.png", alt="options">
+    </br>
+    <img src="Images/option_for_grep.png" alt="options">
 
   * Connecting to Other computers
     ---
