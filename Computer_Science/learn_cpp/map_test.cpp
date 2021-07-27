@@ -1,11 +1,23 @@
-#include <iostream>
-#include <list>
-#include <map>
+#include <bits/stdc++.h>
 
 using namespace std;
 // studing map in cpp
 
-void test_map(){
+void test_map1(){
+
+  map<string, string> x;
+  x["Pepper"] = "pots";
+  x["Tony"] = "starks";
+
+  map<string, string>::iterator i;
+  cout<<"FName\tLName"<<endl;
+  for (i = x.begin(); i != x.end(); i++){
+    cout<< i->first<<"\t"<< i->second<<endl;
+  }
+  cout<<endl;
+}
+
+void test_map5(){
 
   // defining the data structure of type <int, string>
 
@@ -29,6 +41,6 @@ void test_map(){
 }
 
 int main(void){
-  test_map();
+  test_map1();
   return 0;
 }
