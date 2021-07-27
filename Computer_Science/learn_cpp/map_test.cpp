@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <map>
+#include <list>
 
 using namespace std;
 // studing map in cpp
@@ -42,5 +44,6 @@ void test_map5(){
 
 int main(void){
   test_map1();
+  test_map5();
   return 0;
 }
