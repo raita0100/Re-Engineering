@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <list>
+#include <map>
 
 using namespace std;
 // studing map in cpp
