@@ -2,4 +2,4 @@
 
 # Problem
 
-![Problem statement]("./assets/images/definition.png")
+![Problem statement]("assets/images/definition.png")
