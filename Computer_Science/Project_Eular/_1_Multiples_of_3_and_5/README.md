@@ -11,6 +11,6 @@
 ### Aproch for solving Problem
 
 - Take the elements up to 30
-  - ![Element](./assets/images/element.jpeg)
+  ![Element](./assets/images/element.jpeg)
 - Find intersection between two sets
-  - ![sets](./assets/images/sets.png)
+  ![sets](./assets/images/sets.png)
