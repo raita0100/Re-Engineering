@@ -4,3 +4,5 @@
 
 <object data="./assets/pdfs/euler001-English.pdf" type="application/pdf" width="100%">
 </object>
+
+<embed src="assets/pdfs/euler001-English.pdf" type="application/pdf">
