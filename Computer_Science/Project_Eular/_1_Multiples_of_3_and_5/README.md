@@ -8,7 +8,7 @@
 ![Samples cases](./assets/images/samples.png)
 
 
-### Approach for solving Problem
+### $\alpha$ Approach for solving Problem
 
 - Take the elements up to 30
   ![Element](./assets/images/element.jpeg)
