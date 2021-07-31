@@ -12,5 +12,5 @@
 
 - Take the elements up to 30
   - ![Element](./assets/images/element.jpeg)
-- Find intersection
+- Find intersection between two sets
   - ![sets](./assets/images/sets.png)
